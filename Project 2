@@ -1,0 +1,4 @@
+mystring='1 4 3 2 5'
+mylist=mystring.split()
+mylist.sort()
+print(mylist[n-2])
