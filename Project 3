@@ -1,0 +1,10 @@
+d ={}
+for i in range (1):
+    name =input()
+    score=float(input())
+    d[name] = score
+newlist=[]
+for i in d:
+    newlist.append([i,d[i]])
+    
+ 
