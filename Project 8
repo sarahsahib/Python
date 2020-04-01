@@ -1,0 +1,18 @@
+def swap_case(s):
+    str2=""
+    for i in s:
+        if 65 <= ord(i) and ord(i)<= 90:
+            i=chr(ord(i)+32)
+        
+        
+        elif 97 <= ord(i) and ord(i)<= 122:
+            i=chr(ord(i)-32)
+        
+        str2+=i
+    
+    return str2
+   
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
