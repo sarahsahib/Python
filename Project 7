@@ -1,0 +1,2 @@
+for i in range(17):
+    print (str(i).rjust(10, ' '),str(oct(i)[2:]).rjust(10, ' '),str(hex(i)[2:].upper()).rjust(10, ' '),str(bin(i)[2:]).rjust(10, ' '))
