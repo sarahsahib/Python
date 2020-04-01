@@ -1,0 +1,11 @@
+mystring ='ABCDCDC'
+substring='CDC'
+num=len(mylist)-len(mysublist)+1
+count=0
+for i in range(num):
+    if mylist[i:i+len(mysublist)]==mysublist:
+              count+=1
+        
+        
+print(count)
+    
