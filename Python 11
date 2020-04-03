@@ -1,0 +1,10 @@
+def domainGet(s):
+    i=0
+    for char in s:
+        if char =='@':
+             s=s[i+1::]
+        else:
+            i+=1       
+    return s
+    
+    domainGet('user@domain.com')
