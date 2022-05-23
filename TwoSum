@@ -1,0 +1,10 @@
+def twoSum(nums, target):
+    x=0
+    for i in range (len(nums)):
+         if(target- nums[i] in nums):
+                x=nums.index(target-nums[i])
+                return (i, x) 
+                        
+nums=[2,8,12,15]
+target=20
+twoSum(nums, target)
