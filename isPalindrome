@@ -1,0 +1,11 @@
+def isPalindrome(num):
+    StrNum=str(num)
+    if(StrNum==StrNum[::-1]):
+          return True
+    else:
+          return False
+          
+          
+         
+isPalindrome(123)
+          
