@@ -1,0 +1,14 @@
+# import math module
+import math
+ 
+# input the numbers
+a=int(input('Enter one values: '))
+ 
+x=math.log(a,10)
+print(x)
+y=round(x)
+print(y)
+if (10**y)==a:
+    print('{} is the power of number {}.'.format(a,10))
+else:
+    print('{} is not the power of number {}.'.format(a,10))
