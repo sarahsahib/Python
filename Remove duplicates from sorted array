@@ -1,0 +1,14 @@
+list1=[1,2,3,4,5,5]
+length= len(list1)
+print(length)
+dummy= list(set(list1))
+i= len(dummy)+1
+print (i)
+while i <=length:
+    print("Hello")
+    dummy.append('#')
+    i+=1
+           
+        
+print( dummy)
+    
