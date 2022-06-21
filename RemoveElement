@@ -1,0 +1,16 @@
+def RemoveElement(nums, val):
+    count=0
+    newnums=[]
+    for i in range (len(nums)):
+            if(nums[i]!=val):
+                count+=1
+                newnums.append(nums[i])
+            
+                
+    for j in range(len(nums)-count):
+           newnums.append("_")
+    return(count, newnums)
+    
+nums = [0,1,2,2,3,0,4,2]
+val = 2
+(output, nums)=RemoveElement(nums, val)
