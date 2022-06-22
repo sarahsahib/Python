@@ -1,0 +1,10 @@
+def ImplementstrStr(haystack, needle):
+
+    for i in range(len(haystack)):
+         if(haystack[i]==needle[0]):
+                return i
+
+        haystack = "hello"
+needle = "ll"
+r=ImplementstrStr(haystack, needle)
+r
