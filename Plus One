@@ -1,0 +1,19 @@
+def PlusOne(integers):
+    if integers[-1]!=9:
+        integers[-1]+=1
+        
+        strings = [str(integer) for integer in integers]
+        a_string = "".join(strings)
+        an_integer = int(a_string)
+        return an_integer
+    else:
+        integers[-2]+=1
+        integers[-1]=0
+        strings = [str(integer) for integer in integers]
+        a_string = "".join(strings)
+        an_integer = int(a_string)
+        return an_integer
+        
+        
+    PlusOne([1,2,9])
+    130
