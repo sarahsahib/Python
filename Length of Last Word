@@ -1,0 +1,13 @@
+def LengthofLastWord(s):
+    x=-1
+    count=0
+    while(s[x]!=" "):
+            print("in the while")
+            count+=1;
+            x=x-1; 
+       
+    return count
+    
+s= "fly me   to   the moon"
+c=LengthofLastWord(s)
+c
